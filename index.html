@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css" media="all">
+  <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  
+</head>
+
+<body>
+  <div class="container">
+    <div class="thum_icon">
+      <i class="far fa-thumbtack"></i>
+    </div>
+    <h1>TO-DO LISTE</h1>
+    <div class="add">
+      <input type="text" class="add_text" value="" placeholder="請輸入待辦事項" autofocus>
+      <div class="add_icon">
+        <i class="fa fa-plus-circle"></i>
+      </div>
+    </div>
+
+    <div class="wait">
+      <h3>待辦事項</h3>
+      <div class="wait_item">
+        <input type="text" class="wait_text" placeholder="調整會議時間" disabled>
+        <div class="wait_icon">
+          <div class="edit_icon">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+          <div class="del_icon">
+            <i class="fas fa-trash-alt    "></i>
+          </div>
+          <div class="check_icon">
+            <i class="far fa-check-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="done">
+      <h3>完成項目</h3>
+      <div class="done_item">
+        <div class="done_text">
+          驗收專案
+        </div>
+        <div class="done_icon">
+          <div class="del_icon">
+            <i class="fas fa-trash-alt"></i>
+          </div>
+          <div class="check_icon">
+            <i class="fa fa-check-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/main.js" charset="utf-8"></script>
+</body>
+
+</html>
