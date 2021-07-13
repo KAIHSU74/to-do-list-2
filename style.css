@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  margin: 30px auto;
+  padding: 4% 8%;
+  background-color: #89D2BA;
+  border: 3px solid #EDD29F;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 14, 14, 0.5) inset;
+}
+
+.thum_icon{
+  position: absolute;
+  transform: rotate(15deg);
+  margin-left: 10px;
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+h1 {
+  color: #1F6866;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+.add_text {
+  width: 640px;
+  border: none;
+  border-bottom: 3px solid #EDD29F;
+  background-color: #89D2BA;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 16px;
+}
+
+.add_icon {
+  display: inline-block;
+  padding: 5px;
+  font-size: 25px;
+  margin-left: 3px;
+  opacity: 0.5;
+}
+
+.wait_icon,
+.done_icon {
+  display: flex;
+  padding: 5px;
+  font-size: 25px;
+  margin-left: 3px;
+  opacity: 0.6;
+}
+
+.add_icon:hover,
+.edit_icon:hover,
+.del_icon:hover,
+.check_icon:hover {
+  opacity: 0.4;
+}
+
+.wait,
+.done {
+  border: 3px solid #EDD29F;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.wait_item,
+.done_item {
+  display: flex;
+  background-color: #cdf5e8;
+  border: none;
+  border-radius: 6px;
+  margin: 5px 0;
+}
+
+.wait_text,
+.done_text {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  margin: 5px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+h3 {
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Noto Sans TC';
+  color: #1F6866;
+}
+
+.edit_icon,
+.del_icon,
+.check_icon {
+  margin: 0 5px;
+}
+
+@media screen and (max-width:760px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .container {
+    width: auto;
+  }
+}
